@@ -9,7 +9,7 @@ const config: MenuEntry[] = [
   {
     label: 'Farming Countdown',
     icon: 'TicketIcon',
-    href: 'https://polygonscan.com/block/countdown/17900000',
+    href: 'https://polygonscan.com/block/countdown/19070000',
   },
   {
     label: 'Trade',
@@ -17,11 +17,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://quickswap.exchange/#/swap?outputCurrency=0xf005f274fD290c8fdE13484C186C84c254BD40A9', // XXXXBLOOD
+        href: 'https://quickswap.exchange/#/swap?outputCurrency=0x7a2EfB71a36B387e35e2Cc683435727E35C1e978', // XXXXBLOOD
       },
       {
         label: 'Liquidity',
-        href: 'https://quickswap.exchange/#/add/0xf005f274fD290c8fdE13484C186C84c254BD40A9/undefined', // XXXXBLOOD
+        href: 'https://quickswap.exchange/#/add/0x7a2EfB71a36B387e35e2Cc683435727E35C1e978/undefined', // XXXXBLOOD
       },
     ],
   },
@@ -51,11 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'QuickSwap',
-        href: 'https://info.quickswap.exchange/token/0xf005f274fD290c8fdE13484C186C84c254BD40A9', // XXXXBLOOD
+        href: 'https://info.quickswap.exchange/token/0x7a2EfB71a36B387e35e2Cc683435727E35C1e978', // XXXXBLOOD
+      },
+      {
+        label: 'PooCoin',
+        href: 'https://polygon.poocoin.app/tokens/0x7a2efb71a36b387e35e2cc683435727e35c1e978', // XXXXBLOOD
       },
       {
         label: 'DexGuru',
-        href: 'https://dex.guru/token/0xf005f274fD290c8fdE13484C186C84c254BD40A9-polygon', // XXXXBLOOD
+        href: 'https://dex.guru/token/0x7a2EfB71a36B387e35e2Cc683435727E35C1e978-polygon', // XXXXBLOOD
       },
     ],
   },

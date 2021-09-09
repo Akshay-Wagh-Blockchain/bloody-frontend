@@ -14,7 +14,7 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'BLOOD',
     tokenAddresses: {
-      137: '0xF2E02d9B376f93673f3727071952940885F63310' // XXXXBLOOD
+      137: '0x7a2EfB71a36B387e35e2Cc683435727E35C1e978' // XXXXBLOOD
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -22,23 +22,6 @@ const farms: FarmConfig[] = [
 
   {
     pid: 12,
-    risk: 5,
-    lpSymbol: 'BLOOD-WETH LP',
-    otherExchange: 'QuickSwap',
-    decimal: 18,
-    lpAddresses: {
-      137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-WETH
-    },
-    tokenSymbol: 'BLOOD',
-    tokenAddresses: {
-      137: '0xF2E02d9B376f93673f3727071952940885F63310' // XXXXBLOOD
-    },
-    quoteTokenSymbol: QuoteToken.WETH,
-    quoteTokenAdresses: contracts.weth,
-  },
-
-  {
-    pid: 13,
     risk: 5,
     lpSymbol: 'BLOOD-WMATIC LP',
     otherExchange: 'QuickSwap',
@@ -48,10 +31,27 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'BLOOD',
     tokenAddresses: {
-      137: '0xF2E02d9B376f93673f3727071952940885F63310' // XXXXBLOOD
+      137: '0x7a2EfB71a36B387e35e2Cc683435727E35C1e978' // XXXXBLOOD
     },
     quoteTokenSymbol: QuoteToken.WMATIC,
     quoteTokenAdresses: contracts.wmatic,
+  },
+
+  {
+    pid: 13,
+    risk: 5,
+    lpSymbol: 'BLOOD-WETH LP',
+    otherExchange: 'QuickSwap',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-WETH
+    },
+    tokenSymbol: 'BLOOD',
+    tokenAddresses: {
+      137: '0x7a2EfB71a36B387e35e2Cc683435727E35C1e978' // XXXXBLOOD
+    },
+    quoteTokenSymbol: QuoteToken.WETH,
+    quoteTokenAdresses: contracts.weth,
   },
 
   {
@@ -97,7 +97,7 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'BLOOD',
     tokenAddresses: {
-      137: '0xF2E02d9B376f93673f3727071952940885F63310' // XXXXBLOOD
+      137: '0x7a2EfB71a36B387e35e2Cc683435727E35C1e978' // XXXXBLOOD
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
