@@ -100,7 +100,7 @@ const FarmedStakingCard = () => {
               address: token,
               symbol: 'BLOOD',
               decimals: '18',
-              image: 'https://www.polyblood.com/images/egg/3.png',
+              image: 'https://www.bloodyswap.finance/images/egg/3.png',
             },
           },
         })
