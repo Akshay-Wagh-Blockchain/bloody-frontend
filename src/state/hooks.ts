@@ -90,19 +90,17 @@ export const useTotalValue = (): BigNumber => {
     const farm = farms[i]
     if (farm.lpTotalInQuoteToken) {
       let val;
-      if (farm.quoteTokenSymbol === QuoteToken.USDC) {
+      if (farm.quoteTokenSymbol === QuoteToken.WMATIC) {
         val = (bnbPrice.times(farm.lpTotalInQuoteToken));
-      }
-      /* if (farm.pid === 3) {
-        value = value.plus((bnbPrice.times(farm.lpTotalInQuoteToken).times(10**12)));
-      } */
-      if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
+      }else if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
         val = (cakePrice.times(farm.lpTotalInQuoteToken));
+       
       }else{
-        val = (farm.lpTotalInQuoteToken);
+        val = (farm.lpTotalInQuoteToken); // USDC etc
       }
       value = value.plus(val);
     }
   }
-  return value;
+  const output = value.toString() === Infinity.toString() ? new BigNumber(0): value;
+  return output;
 }
