@@ -81,10 +81,10 @@ const config: MenuEntry[] = [
     label: 'Listings',
     icon: 'AuditIcon',
     items: [
-      /* {
+      {
         label: 'Listed on RugDoctor',
         href: 'https://rugdoc.io/project/bloodyswap/',
-      }, */
+      },
       {
         label: 'Listed on DappRadar',
         href: 'https://dappradar.com/polygon/defi/bloodyswap-finance',
