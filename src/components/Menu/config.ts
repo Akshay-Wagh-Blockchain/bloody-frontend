@@ -26,7 +26,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Meat Farms',
+    label: 'Blood Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
