@@ -1934,7 +1934,7 @@
 
 "@pancakeswap-libs/uikit@bloodyswap/bloody-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/bloodyswap/bloody-uikit/tar.gz/8e49657af858d7eadbd59a24a7949c1024f6f17a"
+  resolved "https://codeload.github.com/bloodyswap/bloody-uikit/tar.gz/455586354b0a13c6e0ed7a9b3d4c103e1817cefe"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
