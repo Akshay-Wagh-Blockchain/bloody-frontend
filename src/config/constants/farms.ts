@@ -10,7 +10,7 @@ const farms: FarmConfig[] = [
     otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
-      137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-USDC
+      137: '0xffd8995E1016780AF85CfE5c29Cb8bE77A64BD15' // XXXXBLOOD-USDC
     },
     tokenSymbol: 'BLOOD',
     tokenAddresses: {
@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
-      137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-WMATIC
+      137: '0x3a9D40e4341E341140dD37b700Ac75481665ED23' // XXXXBLOOD-WMATIC
     },
     tokenSymbol: 'BLOOD',
     tokenAddresses: {
@@ -44,7 +44,7 @@ const farms: FarmConfig[] = [
     otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
-      137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-WETH
+      137: '0x313Ef998e22151F4c041F8Baf787D4647aADE948' // XXXXBLOOD-WETH
     },
     tokenSymbol: 'BLOOD',
     tokenAddresses: {
