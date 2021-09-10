@@ -50,6 +50,10 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
+        label: 'QuickChart',
+        href: 'https://quickchart.app/token/0x7a2efb71a36b387e35e2cc683435727e35c1e978?pairedWith=USDC', // XXXXBLOOD
+      },
+      {
         label: 'QuickSwap',
         href: 'https://info.quickswap.exchange/token/0x7a2EfB71a36B387e35e2Cc683435727E35C1e978', // XXXXBLOOD
       },
