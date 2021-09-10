@@ -7,6 +7,7 @@ const farms: FarmConfig[] = [
     pid: 11,
     risk: 5,
     lpSymbol: 'BLOOD-USDC LP',
+    otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
       137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-USDC
@@ -23,6 +24,7 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 5,
     lpSymbol: 'BLOOD-WMATIC LP',
+    otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
       137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-WMATIC
@@ -39,6 +41,7 @@ const farms: FarmConfig[] = [
     pid: 13,
     risk: 5,
     lpSymbol: 'BLOOD-WETH LP',
+    otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
       137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-WETH
@@ -55,6 +58,7 @@ const farms: FarmConfig[] = [
     pid: 8,
     risk: 5,
     lpSymbol: 'WMATIC-USDC LP',
+    otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
       137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
@@ -71,6 +75,7 @@ const farms: FarmConfig[] = [
     pid: 9,
     risk: 5,
     lpSymbol: 'WETH-USDC LP',
+    otherExchange: 'QuickSwap',
     decimal: 18,
     lpAddresses: {
       137: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d',
