@@ -42,8 +42,8 @@ const TwitterCard = () => {
             screenName: 'bloodyswap' // XXXXTWITTER
           }}
           options={{
-            height: '300',
-            chblood: "noheader, nofooter",
+            height: '360',
+            chrome: "noheader, nofooter",
             width: "400",
             theme: isDark ? 'dark' : 'light'
           }}
