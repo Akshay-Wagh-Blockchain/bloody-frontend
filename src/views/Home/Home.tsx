@@ -101,7 +101,7 @@ const Home: React.FC = () => {
         {/* <Heading as="h1" size="xxl" mb="15px" color="#FFFFFF" >
           {TranslateString(576, 'BloodySwap Finance')}
         </Heading>
-        <Text color="#FFFFFF">{TranslateString(999, 'The toughest Polygon based yield farm out there. Sending shots.')}</Text> */}
+        <Text color="#FFFFFF">{TranslateString(999, 'The bloodiest Polygon based yield farm out there. Come and suck some.')}</Text> */}
       </Hero>
       <div>
         <Cards>
