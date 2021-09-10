@@ -77,20 +77,24 @@ const config: MenuEntry[] = [
       }, 
     ],
   },
-  /* {
-    label: 'Audits',
+  {
+    label: 'Listings',
     icon: 'AuditIcon',
     items: [
-      {
+      /* {
         label: 'Listed on RugDoctor',
         href: 'https://rugdoc.io/project/bloodyswap/',
       }, 
       {
         label: 'Listed on VFAT Tools',
         href: 'https://vfat.tools/polygon//',
-      }, 
+      }, */
+      {
+        label: 'Listed on Ape O\'Clock',
+        href: 'https://www.apeoclock.com/launch/bloodyswap-fair-launch/',
+      },
     ],
-  }, */
+  },
 ]
 
 export default config

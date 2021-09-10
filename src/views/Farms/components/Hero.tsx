@@ -41,7 +41,7 @@ const Hero = ({tokenMode}) => {
             :
           TranslateString(320, 'Stake LP tokens to earn BLOOD')
         }</Title>
-        <Blurb color="#FFFFFF" style={{ textAlign: 'center' }}>{TranslateString(10000, 'Deposit Fee will be used to buyback $BLOOD')}</Blurb>
+        <Blurb color="#FFFFFF" style={{ textAlign: 'center' }}>{TranslateString(10000, 'Deposit fees will be used accordingly with the community')}</Blurb>
       </Container>
     </StyledHero>
   )
