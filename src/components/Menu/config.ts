@@ -99,6 +99,16 @@ const config: MenuEntry[] = [
       },
     ],
   },
+  {
+    label: 'Audits/Checks',
+    icon: 'AuditIcon',
+    items: [
+      {
+        label: 'Techrate Check',
+        href: 'https://github.com/bloodyswap/bloody-audits/blob/main/Techrate%20Check.pdf',
+      },
+    ],
+  },
 ]
 
 export default config
