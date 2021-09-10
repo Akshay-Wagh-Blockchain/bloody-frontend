@@ -86,6 +86,10 @@ const config: MenuEntry[] = [
         href: 'https://rugdoc.io/project/bloodyswap/',
       }, */
       {
+        label: 'Listed on DappRadar',
+        href: 'https://dappradar.com/polygon/defi/bloodyswap-finance',
+      },
+      {
         label: 'Listed on VFAT Tools',
         href: 'https://vfat.tools/polygon/bloodyswap/',
       },
