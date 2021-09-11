@@ -95,7 +95,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BLOOD',
     decimal: 18,
     lpAddresses: {
-      137: '0xD744D3b96A2FAb91029c0A81B46F119a3eA2e3dE' // XXXXBLOOD-USDC
+      137: '0xffd8995E1016780AF85CfE5c29Cb8bE77A64BD15' // XXXXBLOOD-USDC
     },
     tokenSymbol: 'BLOOD',
     tokenAddresses: {
