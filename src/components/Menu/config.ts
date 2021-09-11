@@ -101,6 +101,10 @@ const config: MenuEntry[] = [
         label: 'Listed on Ape O\'Clock',
         href: 'https://www.apeoclock.com/launch/bloodyswap-farm-launch/',
       },
+      {
+        label: 'Listed on JaGo',
+        href: 'https://jagosafer.io/bloodyswap',
+      },
     ],
   },
   {
