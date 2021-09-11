@@ -190,7 +190,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdc,
   }, 
 
-  {
+  /* {
     pid: 5,
     risk: 1,
     isTokenOnly: true,
@@ -205,7 +205,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
-  }, 
+  }, */
 
   {
     pid: 6,
