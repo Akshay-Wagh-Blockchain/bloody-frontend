@@ -86,23 +86,27 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     items: [
       {
-        label: 'Listed on RugDoctor',
+        label: 'RugDoctor',
         href: 'https://rugdoc.io/project/bloodyswap/',
       },
       {
-        label: 'Listed on DappRadar',
+        label: 'DappRadar',
         href: 'https://dappradar.com/polygon/defi/bloodyswap-finance',
       },
       {
-        label: 'Listed on VFAT Tools',
+        label: 'VFAT Tools',
         href: 'https://vfat.tools/polygon/bloodyswap/',
       },
       {
-        label: 'Listed on Ape O\'Clock',
+        label: 'Ape O\'Clock',
         href: 'https://www.apeoclock.com/launch/bloodyswap-farm-launch/',
       },
       {
-        label: 'Listed on JaGo',
+        label: 'PolyPup UI',
+        href: 'https://ui.polypup.finance/address/0xb0fae26e5c3282a5c919bba32d168aacd83b8194',
+      },
+      {
+        label: 'JaGo',
         href: 'https://jagosafer.io/bloodyswap',
       },
     ],
@@ -112,7 +116,7 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     items: [
       {
-        label: 'Techrate Check',
+        label: 'Techrate',
         href: 'https://github.com/bloodyswap/bloody-audits/blob/main/Techrate%20Check.pdf',
       },
     ],
