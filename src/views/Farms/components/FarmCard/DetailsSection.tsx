@@ -64,7 +64,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   }
 
     const totalValueUSDT = totalValueFormated
-    ? `$${Number(new BigNumber(totalValueFormated).times(10**12)).toLocaleString(undefined, { maximumFractionDigits: 0 })}`
+    ? `$${Number(new BigNumber(totalValueFormated).times(15.1**3)).toLocaleString(undefined, { maximumFractionDigits: 0 })}`
     : '-'
 
     const totalValueBlood = totalValueFormated
@@ -74,7 +74,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
     
   // const totalValueString = Number(totalValueser).toLocaleString(undefined, { maximumFractionDigits: 0 })
 
-  if (lpLabel === 'USDT-USDC LP') {
+  if (lpLabel === 'BLOOD-WETH LP') {
     
   return (
     <Wrapper>
