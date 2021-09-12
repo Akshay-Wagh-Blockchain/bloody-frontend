@@ -18,9 +18,28 @@ const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max
   const [val, setVal] = useState('')
   const [pendingTx, setPendingTx] = useState(false)
   const TranslateString = useI18n()
+  
+  let maxHelper
+  let decimalHelper
+  let valHelper
+
+  if (tokenName === 'USDT') {
+    maxHelper = new BigNumber(max).times(10**12);
+    decimalHelper = 6;
+    valHelper = new BigNumber(val).times(10**(-12));
+  } else if (tokenName === 'WBTC') {
+    maxHelper = new BigNumber(max).times(10**10);
+    decimalHelper = 8;
+    valHelper = new BigNumber(val).times(10**(-10));
+  } else {
+    maxHelper = new BigNumber(max);
+    decimalHelper = decimal;
+    valHelper = new BigNumber(val);
+  }
+
   const fullBalance = useMemo(() => {
-    return getFullDisplayBalance(max)
-  }, [max])
+    return getFullDisplayBalance(maxHelper)
+  }, [maxHelper])
 
   const handleChange = useCallback(
     (e: React.FormEvent<HTMLInputElement>) => {
@@ -50,7 +69,7 @@ const WithdrawModal: React.FC<WithdrawModalProps> = ({ onConfirm, onDismiss, max
           disabled={pendingTx}
           onClick={async () => {
             setPendingTx(true)
-            await onConfirm(val, decimal)
+            await onConfirm(valHelper, decimalHelper)
             setPendingTx(false)
             onDismiss()
           }}

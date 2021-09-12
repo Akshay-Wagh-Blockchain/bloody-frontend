@@ -63,9 +63,11 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
     `https://polyzap.app/#/add/${liquidityUrlPathParts}`;
   }
 
-    const totalValueUSDT = totalValueFormated
+    const totalValueBLOODWETH = totalValueFormated
     ? `$${Number(new BigNumber(totalValueFormated).times(15.1**3)).toLocaleString(undefined, { maximumFractionDigits: 0 })}`
     : '-'
+	
+	
 
     const totalValueBlood = totalValueFormated
     ? `$${Number(totalValueFormated).toLocaleString(undefined, { maximumFractionDigits: 0 })}`
@@ -89,7 +91,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
       {!removed && (
         <Flex justifyContent="space-between">
           <Text color="#FFFFFF">{TranslateString(23, 'Total Liquidity')}:</Text>
-          <Text color="#FFFFFF">{totalValueUSDT}</Text>
+          <Text color="#FFFFFF">{totalValueBLOODWETH}</Text>
         </Flex>
       )}
       <Flex justifyContent="flex-start">
@@ -99,7 +101,8 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
       </Flex>
     </Wrapper>
   )
-}
+} 
+
   return (
     <Wrapper>
       <Flex justifyContent="space-between">

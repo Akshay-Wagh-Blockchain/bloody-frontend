@@ -94,9 +94,13 @@ export const useTotalValue = (): BigNumber => {
         val = (bnbPrice.times(farm.lpTotalInQuoteToken));
       }
 
-if (farm.pid === 13) {
+      if (farm.pid === 13) {
         value = value.plus((bnbPrice.times(farm.lpTotalInQuoteToken).times(15.1**3)));
       }
+
+      /* if (farm.pid === 5) {
+        value = value.plus((bnbPrice.times(farm.lpTotalInQuoteToken).times(10**12)));
+      } */
 
       if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
         val = (cakePrice.times(farm.lpTotalInQuoteToken));
