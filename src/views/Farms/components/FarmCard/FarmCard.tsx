@@ -118,9 +118,15 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
   //  ? `$${Number(totalValue).toLocaleString(undefined, { maximumFractionDigits: 0 })}`
   //  : '-'
 
+  let multipliier = 200
+  
+  if (farm.pid === 12) {
+	multipliier = 100;
+  }
+  
   const lpLabel = farm.lpSymbol
   const earnLabel = 'BLOOD'
-  const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
+  const farmAPY = farm.apy && farm.apy.times(new BigNumber(multipliier)).toNumber().toLocaleString(undefined, {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   })
