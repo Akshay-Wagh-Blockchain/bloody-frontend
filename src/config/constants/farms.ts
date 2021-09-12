@@ -161,7 +161,7 @@ const farms: FarmConfig[] = [
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'WBTC',
-    decimal: 6,
+    decimal: 8,
     lpAddresses: {
       137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
     },
